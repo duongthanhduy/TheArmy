@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24887d8476d0e5a71ab3ad8bc820eafd, type: 3}
+  m_Name: Episode4
+  m_EditorClassIdentifier:
+  EnemyColor: {r: 0.4104724, g: 0.9622642, b: 0.35857958, a: 1}
+  Enemies:
+  - {fileID: 11400000, guid: 45d4d86821a4f17429ddbb881949c0ce, type: 2}
+  - {fileID: 11400000, guid: c790514932ae2a14b8311e0035eaa74e, type: 2}
+  Sprite: {fileID: 21300000, guid: a65c308524358884e80556b0a732ef38, type: 2}
+  StartHP:
+    mantissa: 0
+    exponent: 0
+  LevelGrowthFactor: 1.08

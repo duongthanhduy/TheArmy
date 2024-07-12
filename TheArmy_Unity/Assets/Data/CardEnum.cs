@@ -1,0 +1,25 @@
+public enum CardEnum
+{
+	None = -1,
+	Power = 0,
+	AttackSpeed = 1,
+	Health = 2,
+	HealthRegen = 3,
+	Range = 4,
+	Cash = 5,
+	Crowns = 6,
+	CriticalChance = 7,
+	ExtraDefense = 8,
+	Shield = 9,
+	MaxUnit = 10,
+	FreeUpgrades = 11,
+	CriticalCrown = 12,
+	Accelerator = 13,
+	StunChance = 14,
+	Resurrection = 15,
+	DeathRay = 16,
+	SuperUnit = 17,
+	Inferno = 18,
+	HeroMode = 19,
+	MaxCardCount = 20
+}

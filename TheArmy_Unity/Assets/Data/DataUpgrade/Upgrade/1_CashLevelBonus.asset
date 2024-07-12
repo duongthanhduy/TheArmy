@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6db26dec77ac4e66f2a02399b7714f39, type: 3}
+  m_Name: 1_CashLevelBonus
+  m_EditorClassIdentifier:
+  WorkshopUpgrade: 20
+  IsOverrideCost: 0
+  Title: Cash / Level
+  Description: Total earned cash from successfuly completing a level
+  ValueFormat: $(v)
+  Prefix:
+  Suffix:
+  ValueFraction: 0
+  CostPolynomailData:
+    Base: 30
+    GrowthRate: 3
+    Exponent: 2.67
+    Level: 3
+    Value:
+      mantissa: 3.83042974078449
+      exponent: 2
+    PolynomialOption: 0
+    IsInteger: 0
+  ValuePolynomialData:
+    Base: 0
+    GrowthRate: 4
+    Exponent: 1
+    Level: 5
+    Value:
+      mantissa: 2
+      exponent: 1
+    PolynomialOption: 0
+    IsInteger: 1
+  Sprite: {fileID: 21300000, guid: 3b908a8589e148a4db8130b63400e992, type: 2}
+  MaxLevel: 149

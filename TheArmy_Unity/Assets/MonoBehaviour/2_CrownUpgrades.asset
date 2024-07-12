@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83571257283d5ccca162bf930da4afc1, type: 3}
+  m_Name: 2_CrownUpgrades
+  m_EditorClassIdentifier:
+  WorkshopCategory: 2
+  Title: Crown Upgrades
+  Cost:
+    mantissa: 1
+    exponent: 2
+  WorkshopUpgradeDatas:
+  - {fileID: 11400000, guid: 7fe26ab222ba73f46a37437600d51dbc, type: 2}
+  - {fileID: 11400000, guid: 5d45a82bf8503de4d9bf50c2e627d413, type: 2}

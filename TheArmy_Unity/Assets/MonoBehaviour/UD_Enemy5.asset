@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1a6dcbd1e37157be9f131f541b6d5f, type: 3}
+  m_Name: UD_Enemy5
+  m_EditorClassIdentifier:
+  UnitId: 56
+  Name: Onager
+  Description:
+  Radius: 0.28
+  BasePower: 0.2
+  BaseHealth: 0.5
+  BaseAttackSpeed: 0.5
+  MoveSpeed: 0.3
+  RotateSpeed: 1
+  AttackDistance: 5
+  ProjectileSpeed: 2
+  AreaDamageRadius: 0.3
+  Sprite: {fileID: 0}
+  Prefab: {fileID: 1371978796990527, guid: 6996933c305e1554d9963a1091d37b42, type: 2}
+  ProjectilePrefab: {fileID: 1448010719596367, guid: 6641acf580c9db24dadbabd4f38417a9, type: 2}
+  CharacterType: 1
+  DataType: 1

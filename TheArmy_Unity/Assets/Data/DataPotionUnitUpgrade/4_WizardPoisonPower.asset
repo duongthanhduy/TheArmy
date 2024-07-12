@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 700954fb12ee2cb564c2437722926c64, type: 3}
+  m_Name: 4_WizardPoisonPower
+  m_EditorClassIdentifier:
+  Upgrade: 18
+  Title: Poision Power
+  Description: Increase poison percentage %(v)
+  ValuePolynomialData:
+    Base: 0.5
+    GrowthRate: 0.05
+    Exponent: 1
+    Level: 0
+    Value:
+      mantissa: 0
+      exponent: 0
+    PolynomialOption: 0
+    IsInteger: 0
+  MaxLevel: 20

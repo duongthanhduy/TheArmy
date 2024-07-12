@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83571257283d5ccca162bf930da4afc1, type: 3}
+  m_Name: 2_GuardUpgrades
+  m_EditorClassIdentifier:
+  WorkshopCategory: 1
+  Title: Guard Upgrades
+  Cost:
+    mantissa: 5
+    exponent: 2
+  WorkshopUpgradeDatas:
+  - {fileID: 11400000, guid: 82d34489b9418274bbc86ad0695ce6b6, type: 2}
+  - {fileID: 11400000, guid: b0ea9a35f72ae094cbfa316d17e1e5ff, type: 2}
+  - {fileID: 11400000, guid: b9f4f3971b5a41e4f88a08586af7e46d, type: 2}
+  - {fileID: 11400000, guid: 24c7668870111154b867bb3fdd7024cf, type: 2}

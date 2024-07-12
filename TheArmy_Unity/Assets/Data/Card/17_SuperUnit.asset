@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed0c9e05b3b02fedfe74cd3521c3df22, type: 3}
+  m_Name: 17_SuperUnit
+  m_EditorClassIdentifier:
+  Card: 17
+  Title: Super Unit
+  Description: Units becomes super for 15 sec, unit damage increased by x(v)
+  Rarity: 2
+  ValuePolynomialData:
+    Base: 2.1
+    GrowthRate: 0.4
+    Exponent: 1
+    Level: 1
+    Value:
+      mantissa: 2.49999991059303
+      exponent: 0
+    PolynomialOption: 0
+    IsInteger: 0
+  ValueFraction: 2
+  Sprite: {fileID: 21300000, guid: aee97ca26b33d8046818bca17b6054e0, type: 2}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1a6dcbd1e37157be9f131f541b6d5f, type: 3}
+  m_Name: UD_Unit3
+  m_EditorClassIdentifier:
+  UnitId: 2
+  Name: Blade
+  Description: Attacks while rotating
+  Radius: 0.21
+  BasePower: 0.125
+  BaseHealth: 1
+  BaseAttackSpeed: 0.5
+  MoveSpeed: 1
+  RotateSpeed: 1
+  AttackDistance: 0.1
+  ProjectileSpeed: 0
+  AreaDamageRadius: 0
+  Sprite: {fileID: 21300000, guid: e54937e2f95705c4781dc633f32c06ee, type: 2}
+  Prefab: {fileID: 1556859800911250, guid: 941425229c3ea394681ebd4007c2b83a, type: 2}
+  ProjectilePrefab: {fileID: 0}
+  CharacterType: 0
+  DataType: 0

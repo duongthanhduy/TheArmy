@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1a6dcbd1e37157be9f131f541b6d5f, type: 3}
+  m_Name: UD_Enemy2
+  m_EditorClassIdentifier: 
+  UnitId: 53
+  Name: Tower
+  Description: 
+  Radius: 0.28
+  BasePower: 1
+  BaseHealth: 5
+  BaseAttackSpeed: 0.5
+  MoveSpeed: 0
+  RotateSpeed: 0
+  AttackDistance: 8
+  ProjectileSpeed: 4
+  AreaDamageRadius: 0
+  Sprite: {fileID: 0}
+  Prefab: {fileID: 1770275384098112, guid: 8d768c8a010c9f3478942bea4443fdb2, type: 3}
+  ProjectilePrefab: {fileID: 1264872426891701, guid: 0627e3f73eb744d419cb3ae205e44b41, type: 3}
+  CharacterType: 1
+  DataType: 1

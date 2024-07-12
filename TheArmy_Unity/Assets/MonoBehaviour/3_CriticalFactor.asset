@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6db26dec77ac4e66f2a02399b7714f39, type: 3}
+  m_Name: 3_CriticalFactor
+  m_EditorClassIdentifier:
+  WorkshopUpgrade: 3
+  IsOverrideCost: 0
+  Title: Critical Factor
+  Description: The multiplier that determines the extent of increased damage or effects for critical hits.
+  ValueFormat: x(v)
+  Prefix:
+  Suffix:
+  ValueFraction: 2
+  CostPolynomailData:
+    Base: 30
+    GrowthRate: 3
+    Exponent: 2.67
+    Level: 3
+    Value:
+      mantissa: 3.83042974078449
+      exponent: 2
+    PolynomialOption: 0
+    IsInteger: 0
+  ValuePolynomialData:
+    Base: 1
+    GrowthRate: 0.02
+    Exponent: 1
+    Level: 3
+    Value:
+      mantissa: 1.0599999986589
+      exponent: 0
+    PolynomialOption: 0
+    IsInteger: 0
+  Sprite: {fileID: 21300000, guid: 238e9b2dca590a54ab401beb7f53378a, type: 2}
+  MaxLevel: 150

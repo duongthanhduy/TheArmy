@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83571257283d5ccca162bf930da4afc1, type: 3}
+  m_Name: 000_AttackUpgrades
+  m_EditorClassIdentifier:
+  WorkshopCategory: 0
+  Title: Attack Default
+  Cost:
+    mantissa: 0
+    exponent: 0
+  WorkshopUpgradeDatas:
+  - {fileID: 11400000, guid: f26594ff9a756b34196d1597586e8b4b, type: 2}
+  - {fileID: 11400000, guid: 882f1663ea6a06f469c6a9b3b744a8eb, type: 2}
+  - {fileID: 11400000, guid: 3c6484104618e4342ba22034c00d51cf, type: 2}
+  - {fileID: 11400000, guid: bf98e464fc2466641b7916981e8ce9ce, type: 2}

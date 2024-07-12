@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1a6dcbd1e37157be9f131f541b6d5f, type: 3}
+  m_Name: UD_Enemy4
+  m_EditorClassIdentifier:
+  UnitId: 55
+  Name: Axe
+  Description:
+  Radius: 0.28
+  BasePower: 0.5
+  BaseHealth: 1
+  BaseAttackSpeed: 0.35
+  MoveSpeed: 0
+  RotateSpeed: 1
+  AttackDistance: 0
+  ProjectileSpeed: 4
+  AreaDamageRadius: 0
+  Sprite: {fileID: 0}
+  Prefab: {fileID: 1477871215328623, guid: 0d33b8a357398a94f86d9ef9506dba7f, type: 2}
+  ProjectilePrefab: {fileID: 0}
+  CharacterType: 2
+  DataType: 1

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83571257283d5ccca162bf930da4afc1, type: 3}
+  m_Name: 2____RangeUpgrades
+  m_EditorClassIdentifier:
+  WorkshopCategory: 0
+  Title: Multi Attack Upgrades
+  Cost:
+    mantissa: 1.5
+    exponent: 3
+  WorkshopUpgradeDatas:
+  - {fileID: 11400000, guid: afa3c38b664f6ee45a80ec5c259048d9, type: 2}
+  - {fileID: 11400000, guid: a0a5d45ad8af21141b3dc0199338582a, type: 2}
+  - {fileID: 11400000, guid: 379fd040bc3696947bda96a4091f71ce, type: 2}
+  - {fileID: 11400000, guid: c0593ea1721f48c428792d55d439eb95, type: 2}

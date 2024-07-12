@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1a6dcbd1e37157be9f131f541b6d5f, type: 3}
+  m_Name: UD_Enemy5Boss
+  m_EditorClassIdentifier:
+  UnitId: 106
+  Name: OnagerBoss
+  Description:
+  Radius: 1.4
+  BasePower: 4
+  BaseHealth: 3000
+  BaseAttackSpeed: 0.5
+  MoveSpeed: 30
+  RotateSpeed: 0.3
+  AttackDistance: 5
+  ProjectileSpeed: 2
+  AreaDamageRadius: 1
+  Sprite: {fileID: 0}
+  Prefab: {fileID: 1274180570744478, guid: de763df13ad178f4cbe4f9e7085e152f, type: 2}
+  ProjectilePrefab: {fileID: 1524181315676601, guid: c7fa2d8408fbde846aa8d3708a036eb7, type: 2}
+  CharacterType: 1
+  DataType: 1
